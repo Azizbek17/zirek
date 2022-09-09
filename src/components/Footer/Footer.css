@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4C0750;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.footer .messenger-links {
+  display: flex;
+}
+.footer .messenger-links img {
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=Footer.css.map */
