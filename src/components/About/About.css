@@ -1,0 +1,25 @@
+.about .about-us {
+  text-align: center;
+}
+.about .about-us h3 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.about .about-us p {
+  font-size: 30px;
+  font-weight: 200;
+  padding: 0px 60px 0 60px;
+  line-height: 5.2rem;
+}
+.about .contacts {
+  text-align: center;
+}
+.about .contacts h3 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.about .contacts p {
+  line-height: 2.2rem;
+}
+
+/*# sourceMappingURL=About.css.map */

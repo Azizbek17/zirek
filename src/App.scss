@@ -5,14 +5,15 @@ body {
     .wrapper {
         .content {
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             padding-left: 30px;
             padding-right: 30px;
             padding-top: 80px;
         }
         section {
-            max-width: 900px;
+            max-width: 1050px;
             .title-section {
+                border-radius: 3px 3px 0 0;
                 padding: 2px 0 2px 30px;
                 color: #f2f2f2;
                 background-color: #691082;
@@ -24,6 +25,7 @@ body {
                 flex-wrap: wrap;
                 padding-top: 1.5rem;
                 margin-bottom: 2rem;
+                border-radius: 0 0 3px 3px
             }
         }
     }

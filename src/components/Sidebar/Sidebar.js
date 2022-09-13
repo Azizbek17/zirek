@@ -4,21 +4,10 @@ import './Sidebar.css';
 function Sidebar() {
   return (
     <div className='sidebar'>
-      <div><p>Категории</p></div>
       <ul>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
+        <a href='#head1'>О нас</a>
+        <a href='#head2'>Наши проекты</a>
+        <a href='#head3'>Контакты</a>
       </ul>
     </div>
   )
