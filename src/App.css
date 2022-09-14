@@ -1,24 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
-body {
+html {
+  scroll-behavior: smooth;
+}
+html body {
   font-family: "Open Sans", sans-serif;
 }
-body .wrapper .content {
+html body .wrapper .content {
   display: flex;
   justify-content: space-between;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 80px;
 }
-body .wrapper section {
+html body .wrapper section {
   max-width: 1050px;
 }
-body .wrapper section .title-section {
+html body .wrapper section .title-section {
   border-radius: 3px 3px 0 0;
   padding: 2px 0 2px 30px;
   color: #f2f2f2;
   background-color: #691082;
 }
-body .wrapper section .card-section {
+html body .wrapper section .card-section {
   background-color: #d9acff;
   display: flex;
   justify-content: space-evenly;
